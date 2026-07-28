@@ -7,7 +7,7 @@
 body {
   width: 1100px;
   margin: 0 auto;
-  font-family: Raleway, sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 h1,
@@ -25,6 +25,11 @@ blockquote {
   padding: 0;
 }
 
+ul,
+ol {
+  list-style: none;
+}
+
 a {
   color: inherit;
 }
@@ -35,4 +40,8 @@ img {
 
 button {
   font: inherit;
+}
+
+address { 
+  font-style: normal;
 }
