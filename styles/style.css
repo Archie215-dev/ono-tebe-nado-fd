@@ -174,8 +174,7 @@ h2 {
 }
 
 .card__title,
-.card__text 
-{
+.card__text {
   z-index: 2;
 }
 
@@ -193,8 +192,7 @@ h2 {
   line-height: 120%;
 }
 
-.card_type_film .card 
-{
+.card_type_film .card {
   background-image: url(../images/card-lot-01.jpg);
   background-position: center;
   background-size: cover;
