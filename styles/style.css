@@ -10,7 +10,6 @@ h2 {
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   padding: 94px 50px;
-  align-items: center;
 }
 
 .header__logo {
@@ -126,13 +125,10 @@ h2 {
   background-color: transparent;
   z-index: 2;
   padding: 12px 32px;
-  
-}
-
-.bet-button_text {
   text-transform: uppercase;
   text-decoration: none;
   font-size: 22px;
+  
 }
 
 /* Стилизация блока lots*/
@@ -178,7 +174,8 @@ h2 {
 }
 
 .card__title,
-.card__text {
+.card__text 
+{
   z-index: 2;
 }
 
@@ -196,7 +193,8 @@ h2 {
   line-height: 120%;   
 }
 
-.card_type_film .card {
+.card_type_film .card 
+{
   background-image: url(../images/card-lot-01.jpg);
   background-position: center;
   background-size: cover;
@@ -286,6 +284,7 @@ address {
   flex-wrap: wrap;
   max-width: 265px;
   font-size: 18px;
+  font-style: normal;
 }
 
 .footer__menu-list {
